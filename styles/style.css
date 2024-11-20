@@ -3,10 +3,23 @@
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;  
+  font-family: sans-serif;
 }
-
-
-
+h1 {
+	background: yellow;
+	color: black;
+	text-align: center;
+	font-size: 1em;
+}
+div {
+	background:lightgray;
+	display: flex;
+	justify-content: center;
+}
+header div img{
+	width: 30%;
+    object-fit: contain;
+}
 
 
 

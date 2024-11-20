@@ -85,8 +85,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 </details>
 
-
-
+## Screenshots opdrachten (week 2)
+  <img src="readme-images/CSS-diner-32opdrachten.png" alt="Screenshot waarin te zien is dat ik alle 32 opdrachten van CSS diner gehaald heb">
 
 
 ## Voortgang 1 (week 2)
