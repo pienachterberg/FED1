@@ -1,0 +1,72 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+  font-family: sans-serif;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+
+}
+h1 {
+	background: yellow;
+	color: black;
+	text-align: center;
+	font-size: 1em;
+	padding: 0.5em;
+}
+nav {
+	display: flex;
+}
+
+header nav img {
+	width: 30%;
+    object-fit: contain;
+}
+
+div {
+	background:lightgray;
+	display: flex;
+	justify-content: center;
+	padding: 0.5em;
+}
+header div img {
+	width: 30%;
+    object-fit: contain;
+	margin-right: 0.5em;
+}
+img {
+	width: 100%;
+    object-fit: contain;
+}
+
+section article {
+	display: flex;
+}
+
+section ul li p:nth-of-type(2) {
+	color: crimson;
+}
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
