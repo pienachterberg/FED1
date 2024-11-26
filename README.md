@@ -96,18 +96,40 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<<<<<<< HEAD
   <img src="readme-images/HTML-homescreen-feedback-week1.png" width="375px" alt="Begin van mijn HTML scherm, in deze screenshot is de verdeling van mijn sections te zien.">
   <img src="readme-images/CSS-beginsels-feedback-week1.png" width="375px" alt="Begin van mijn CSS indeling, hier is te zien hoe de student assistent mij geholpen heeft met de nth(1) items en het aanspreken van items.">
+=======
+
+
+  ### Agenda voor meeting
+  samen met je groepje opstellen
+
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
+
+>>>>>>> 20dd08265371f3aa1d18665cb1bd5fb1bb8538df
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
+<<<<<<< HEAD
   - Voordat ik naar het gesprek ging had ik al een paar dingen bedacht waar ik hulp bij wilde vragen. Zo wist ik niet of ik mijn sections goed had ingedeeld in mijn breakdownschets en HTML, en hoe ik deze moet indelen in CSS. 
   - Bij het gesprek kwam al direct naar voren dat ik mijn Github niet goed geplaatst had, de student assistent heeft mij geholpen met deze opnieuw plaatsen. Zodat mijn read-me live is. 
   - Ook was ik al begonnen met een klein stukje CSS zodat ik hier ook mijn eerste vastgelopen punten op kon bespreken. De student assistent heeft mij geholpen met de sections specifieker te benoemen als nth(1), nth(2) zodat ik ze niet hoef te herschrijven. Op deze sections heb ik vervolgens een flexbox aangemaakt om de li items naast elkaar te laten staan. 
   - Ook heb ik li items toegevoegd aan losstaande img. Zo is de section compleet en is het indelen makkelijker. 
   - Ook heb ik de buttons veranderd naar a items. Want het zijn linkjes binnenin de website. Deze moet ik met CSS opmaken. En ik ga ze functioneel maken met Javascript (wat we in de les geleerd hebben.)
   - Ook heb ik mijn img een 100vh gegeven zodat hij binnen mijn scherm past. 
+=======
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
+
+>>>>>>> 20dd08265371f3aa1d18665cb1bd5fb1bb8538df
 </details>
 
 

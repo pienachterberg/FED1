@@ -19,9 +19,13 @@ h1 {
 nav {
 	display: flex;
 }
+<<<<<<< HEAD
 li {
 	list-style-type: "";
 }
+=======
+
+>>>>>>> 20dd08265371f3aa1d18665cb1bd5fb1bb8538df
 header nav img {
 	width: 30%;
     object-fit: contain;
@@ -43,12 +47,17 @@ img {
     object-fit: contain;
 }
 
+<<<<<<< HEAD
 section:nth-of-type(1) ul li{
 	width: 5em;
 }
 section:nth-of-type(1) ul, section:nth-of-type(2) ul, section:nth-of-type(5) ul {
 	display: flex;
 	flex-direction: row;
+=======
+section article {
+	display: flex;
+>>>>>>> 20dd08265371f3aa1d18665cb1bd5fb1bb8538df
 }
 
 section ul li p:nth-of-type(2) {
