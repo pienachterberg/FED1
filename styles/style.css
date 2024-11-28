@@ -7,8 +7,8 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-
 }
+
 h1 {
 	background: yellow;
 	color: black;
@@ -16,16 +16,23 @@ h1 {
 	font-size: 1em;
 	padding: 0.5em;
 }
+
+.navimages {
+	height: 1.5em;
+	width: 1.5em;
+	margin: 1em;
+}
+
 nav {
 	display: flex;
+	justify-content: space-around;
+
 }
-<<<<<<< HEAD
+
 li {
 	list-style-type: "";
 }
-=======
 
->>>>>>> 20dd08265371f3aa1d18665cb1bd5fb1bb8538df
 header nav img {
 	width: 30%;
     object-fit: contain;
@@ -37,34 +44,116 @@ div {
 	justify-content: center;
 	padding: 0.5em;
 }
+
 header div img {
 	width: 30%;
     object-fit: contain;
 	margin-right: 0.5em;
 }
+
+header ul li a {
+	display: flex;
+	justify-content: space-around;
+	background: black;
+	color: white;
+	padding: 1em;
+	text-decoration: none;
+}
+
 img {
 	width: 100%;
     object-fit: contain;
 }
 
-<<<<<<< HEAD
 section:nth-of-type(1) ul li{
 	width: 5em;
 }
+
 section:nth-of-type(1) ul, section:nth-of-type(2) ul, section:nth-of-type(5) ul {
 	display: flex;
 	flex-direction: row;
-=======
+}
+
 section article {
 	display: flex;
->>>>>>> 20dd08265371f3aa1d18665cb1bd5fb1bb8538df
+}
+
+section {
+	padding: 1em;
+}
+
+section:nth-of-type(1), section:nth-of-type(3){
+	background:lightgray;
 }
 
 section ul li p:nth-of-type(2) {
 	color: crimson;
 }
 
+article:last-of-type ul {
+	display:flex;
+	flex-direction: row;
+	background-color: black;
+	color: white;
+}
 
+main article ul li img {
+	max-width: 10vw;
+	max-height: 10vh;
+	padding-bottom: 0.6em;
+}
+
+article ul li {
+	padding: 1em;
+	text-align: center;
+}
+
+nav button {
+	background: white;
+	padding: 0em;
+	margin: 0em;
+	border-color: transparent;
+}
+
+button {
+	background: black;
+	color: white;
+	padding: 1em;
+	margin-top: 1.2em;
+	margin-bottom: 0.8em;
+	width: 15em;
+	border-radius: 2em;
+	font-weight: 600;
+	font-size: 1em;
+}
+
+.anders {
+	background:cadetblue;
+	color: black;
+	padding: 1em;
+	margin-top: 1.2em;
+	margin-bottom: 0.8em;
+	width: 15em;
+	border-radius: 2em;
+	font-weight: 600;
+	font-size: 1em;
+	transition: 1s;
+	border-color: transparent;
+	rotate: 360deg;
+}
+
+input,label {
+	display: flex;
+	flex-direction: column;
+	width: 25em;
+	height: 3em;
+	padding-left: 1em;
+	border-width: 0.01em;
+}
+
+section:last-of-type {
+	text-align: center;
+}
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -73,6 +162,17 @@ section ul li p:nth-of-type(2) {
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+}
+
+h5 {
+	padding:0.8em;
+	font-size: 1.2em;
+}
+main p {
+	padding-top: 0.5em;
+}
+footer p {
+	padding: 1em;
 }
 
 
