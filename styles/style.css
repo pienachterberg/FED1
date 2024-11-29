@@ -9,6 +9,15 @@
   box-sizing: border-box;
 }
 
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
 h1 {
 	background: yellow;
 	color: black;
@@ -25,11 +34,25 @@ h1 {
 
 nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
+
+nav button {
+	background: white;
+	padding: 0em;
+	margin: 0em;
+	border-color: transparent;
+	width: auto;
+}
+
+nav img:nth-of-type(2) {
+	margin-inline: auto;
+}
+
 header nav:nth-of-type(2) {
 	display: none;
 }
+
 header nav:nth-of-type(2).open {
 	display: block;
 }
@@ -79,7 +102,7 @@ section:nth-of-type(1) ul li{
 	width: 5em;
 }
 
-section:nth-of-type(1) ul, section:nth-of-type(2) ul, section:nth-of-type(5) ul {
+section:nth-of-type(1) ul, section:nth-of-type(2) ul, section:nth-of-type(5) ul , section:nth-of-type(6) ul{
 	display: flex;
 	flex-direction: row;
 }
@@ -118,11 +141,11 @@ article ul li {
 	text-align: center;
 }
 
-nav button {
-	background: white;
-	padding: 0em;
-	margin: 0em;
-	border-color: transparent;
+article h2 {
+	padding-left: 1em;
+	padding-top: 0.5em;
+	background: black;
+	color: white;
 }
 
 button {
@@ -165,24 +188,26 @@ section:last-of-type {
 	text-align: center;
 }
 
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+h2 ul {
+	display: flex;
 }
 
-h5 {
-	padding:0.8em;
-	font-size: 1.2em;
+h2 ul li p img {
+	width: 1.8em;
+	height: 1.8em;
 }
+
 main p {
 	padding-top: 0.5em;
 }
 footer p {
 	padding: 1em;
+}
+
+footer h2 {
+	font-size: 1.2em;
+	padding-left: 0.8em;
+	padding-top: 0.5em;
 }
 
 
