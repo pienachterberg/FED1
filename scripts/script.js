@@ -1,8 +1,13 @@
 // JavaScript Document
 console.log("hi");
 
-var deButton = document.querySelector("section:nth-of-type(4) button");
-deButton.onclick = doeIets;
+var deButton = document.querySelector("header button");
+deButton.onclick = openMenu;
+
+function openMenu() {
+    var deNav = document.querySelector('nav:nth-of-type(2)');
+    deNav.classList.toggle('open');
+}
 
 function doeIets(){
     this.classList.toggle("anders");

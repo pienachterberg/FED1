@@ -26,7 +26,12 @@ h1 {
 nav {
 	display: flex;
 	justify-content: space-around;
-
+}
+header nav:nth-of-type(2) {
+	display: none;
+}
+header nav:nth-of-type(2).open {
+	display: block;
 }
 
 li {
@@ -51,13 +56,18 @@ header div img {
 	margin-right: 0.5em;
 }
 
-header ul li a {
+header ul {
 	display: flex;
 	justify-content: space-around;
+}
+
+header ul li a:nth-of-type(1){
 	background: black;
 	color: white;
 	padding: 1em;
 	text-decoration: none;
+	padding-left: 2.4em;
+	padding-right: 2.4em;
 }
 
 img {
