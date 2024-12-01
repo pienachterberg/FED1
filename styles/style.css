@@ -18,6 +18,16 @@
 	--color-background:#eee;
 }
 
+html, body {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
 h1 {
 	background: yellow;
 	color: black;
@@ -222,6 +232,7 @@ h2 ul li p img {
 main p {
 	padding-top: 0.5em;
 }
+
 footer p {
 	padding: 1em;
 }
@@ -233,12 +244,4 @@ footer h2 {
 }
 
 
-
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
 
