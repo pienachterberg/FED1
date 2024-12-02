@@ -135,7 +135,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Deze week ben ik al een goed eind opweg gegaan met het schrijven van mijn code, en dit lukt met veel proberen ook best redelijk. Voorafgaand van de feedbackgroep wilde ik graag hulp vragen met mijn hamburgermenu interactief maken. 
+  <img src="readme-images/Hamburgermenu-eerste-versie_roze.png" width="375px" alt="Hamburgermenu eerste versie, de indeling is nog niet af en de achtergrond roze.">
 
 
   ### Agenda voor meeting
@@ -149,12 +150,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+ - In deze feedbackgroep wist ik dat ik om hulp wilde vragen met het opstellen van een hamburgermenu. In de afbeelding hierboven is te zien hoe deze eruit ziet als je op het icoon klikt, hij werkt!
+ - Volgende week ga ik deze nog verder vormgeven, ook wil ik erachter komen hoe ik deze specifiek aanspreek, want nu gaat de vormgeving van omliggende UL's vaak mee. 
+ - Daarnaast heb ik mijn eerste nav bar beter vormgegeven door het DROOL logo het meest ruimte te geven. Dit heb ik geleerd door gebruik te maken van: margin-inline: auto;.
+ - Tenslotte heb ik geleerd dat ik met het > attribuut een item die direct in een bijv. een sectie staat kan aanspreken. 
+ - De rest van deze werkgroep heb ik gewerkt aan het maken van mijn iconenset en de a binnen de img leidt naar de andere pagina. Eerst had ik deze geleid naar de oprechte socials van de website, maar ik kreeg de feedback dat ik deze binnen de pagina moet linken, voor als er perongeluk geklikt op wordt. Nu gaat de index pagina naar de inspiratie pagina en vise versa. 
 
 </details>
 
