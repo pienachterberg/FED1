@@ -39,6 +39,12 @@ h1 {
 	text-align: center;
 	font-size: 1em;
 	padding: 0.5em;
+	transition: 1s;
+}
+
+h1:hover {
+	background:lightblue;
+	color: black;
 }
 
 h2 ul {
@@ -48,20 +54,6 @@ h2 ul {
 h2 ul li p img {
 	width: 1.8em;
 	height: 1.8em;
-}
-
-main p {
-	padding-top: 0.5em;
-}
-
-footer h2 {
-	font-size: 1.2em;
-	padding-left: 0.8em;
-	padding-top: 0.5em;
-}
-
-footer p {
-	padding: 1em;
 }
 
 /* IMG AND LI */
@@ -157,6 +149,37 @@ div {
 
 
 
+/*******************/
+/* MAIN AND FOOTER */
+/*******************/
+
+/* MAIN */
+main p {
+	padding-top: 0.5em;
+}
+
+main section h2{
+	transition: 1s;
+	transition-delay: 0.3s;
+}
+
+main section h2:hover {
+	font-size: 1.9em;
+}
+
+/* FOOTER */
+footer h2 {
+	font-size: 1.2em;
+	padding-left: 0.8em;
+	padding-top: 0.5em;
+}
+
+footer p {
+	padding: 1em;
+}
+
+
+
 /************************/
 /* SECTIONS AND ARTICLES*/
 /************************/
@@ -179,6 +202,10 @@ section article {
 	margin-bottom: 1em;
 }
 
+section article:hover {
+	background:lightblue;
+}
+
 section .kortingimages {
 	padding: 0%;
 	width: 50%;
@@ -188,7 +215,7 @@ section .kortingimages {
 }
 
 section:nth-of-type(1) ul li{
-	width: 5em;
+	width: 30%;
 }
 
 section:nth-of-type(1) ul {
@@ -248,6 +275,11 @@ main article ul li img {
 	max-width: 10vw;
 	max-height: 10vh;
 	padding-bottom: 0.6em;
+	transition: 1.5s;
+}
+
+main article ul li img:hover {
+	transform: rotate(720deg);
 }
 
 article ul li {
@@ -262,11 +294,50 @@ article h2 {
 	color: white;
 }
 
+article div h3 {
+	font-size: 2em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	transition: 0.5s;
+}
+
+article div h3:hover {
+	font-size: 3.5em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+article div p {
+	transition: 0.5s;
+}
+
+article div p:hover {
+	background: yellow;
+	color: black;
+	padding-bottom: 0.7em;
+	border-radius: 1em;
+}
+
 article:last-of-type ul {
 	display:flex;
 	flex-direction: row;
 	background-color: black;
 	color: white;
+}
+
+main article:nth-of-type(1) {
+	position: relative;
+}
+
+main article:nth-of-type(1) div {
+	position: absolute;
+	top: 0;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	top: 40%;
+	bottom: 60%;
+	padding: 1rem;
+	text-align: center;
 }
 
 
@@ -307,8 +378,6 @@ a {
 }
 
 input,label {
-	display: flex;
-	flex-direction: column;
 	width: 25em;
 	height: 3em;
 	padding-left: 1em;
