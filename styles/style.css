@@ -47,6 +47,13 @@ h1:hover {
 	color: black;
 }
 
+.eersteH2 {
+	color: gray;
+	font-size: 1em;
+	text-align: center;
+	font-weight: 500;
+}
+
 h2 ul {
 	display: flex;
 }
@@ -73,12 +80,18 @@ li {
 /************************/
 
 /* HEADER */
+
+header {
+	position: relative;
+}
+
 header nav:nth-of-type(2) {
 	display: none;
 }
 
 header nav:nth-of-type(2).open {
 	display: block;
+	transform: translateX(0);
 }
 
 header nav img {
@@ -113,7 +126,39 @@ header > ul {
 }
 
 header nav:nth-of-type(2) {
-	background: pink;
+	background: white;
+	top: 6.13rem;
+	display: block;
+	position: absolute;
+	z-index: 99;
+	transform: translateX(-100vw);
+	transition: .2s;
+	width: 90%;
+}
+
+header nav:nth-of-type(2) ul {
+	gap: 1rem;
+	padding: 1rem;
+}
+
+header nav:nth-of-type(2) ul li {
+	width: 6em;
+	text-align: center;
+	font-size: .7rem;
+}
+
+header nav:nth-of-type(2) ul li a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10rem;
+	aspect-ratio: 1/1;
+	overflow: hidden;
+	justify-content: center;
+}
+
+header nav:nth-of-type(2) ul li a img {
+	width: 100%;
 }
 
 /* NAVIGATIE AND DIV */
@@ -126,6 +171,31 @@ header nav:nth-of-type(2) {
 nav {
 	display: flex;
 	justify-content: space-between;
+}
+
+nav:nth-of-type(2) details ul {
+	flex-direction: column;
+}
+
+nav:nth-of-type(2) details summary {
+	padding: 1em;
+}
+
+nav:nth-of-type(2) article {
+	flex-direction: column;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+nav:nth-of-type(2) article p {
+	padding: 0.8em;
+	color: gray;
+	font-weight: 300;
+}
+
+nav:nth-of-type(2) details summary ul li {
+	font-size: 1em;
+	flex-direction: column;
 }
 
 nav button {
@@ -165,6 +235,7 @@ main section h2{
 
 main section h2:hover {
 	font-size: 1.9em;
+	color: yellow; text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 /* FOOTER */
@@ -203,7 +274,7 @@ section article {
 }
 
 section article:hover {
-	background:lightblue;
+	background:lightgrey;
 }
 
 section .kortingimages {
@@ -222,13 +293,6 @@ section:nth-of-type(1) ul {
 	justify-content: center;
 }
 
-.eersteH2 {
-	color: gray;
-	font-size: 1em;
-	text-align: center;
-	font-weight: 500;
-}
-
 section:nth-of-type(1) ul, section:nth-of-type(2) ul, section:nth-of-type(5) ul , section:nth-of-type(6) ul{
 	display: flex;
 	flex-direction: row;
@@ -236,6 +300,11 @@ section:nth-of-type(1) ul, section:nth-of-type(2) ul, section:nth-of-type(5) ul 
 
 section:nth-of-type(1), section:nth-of-type(3), section:nth-of-type(8){
 	background:lightgray;
+	transition: 1s;
+}
+
+section:nth-of-type(1):hover, section:nth-of-type(3):hover, section:nth-of-type(8):hover{
+	background: lightblue;
 }
 
 section:nth-of-type(3) ul {
@@ -302,7 +371,6 @@ article div h3 {
 
 article div h3:hover {
 	font-size: 3.5em;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 article div p {
