@@ -243,8 +243,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. De details summary heb ik gemaakt met hulp van https://chatgpt.com/ omdat we dit niet eerder in de les gehad hadden.
+  2. Afbeelding van de shopping bag in de eerste nav bar is van https://iconduck.com/icons/19959/shopping-bag. 
+  3. Afbeelding van het vergrootglas in de eerste nav bar is van https://www.veryicon.com/icons/miscellaneous/designer-icon-1/searchbar.html?p=3. 
+  4. Afbeelding van het hamburgermenu in de eerste nav bar is van https://en.wikipedia.org/wiki/Hamburger_button.
+  5. Overige images van https://drool-art.com/.
 
 </details>

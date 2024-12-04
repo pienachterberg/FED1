@@ -142,11 +142,21 @@ header nav:nth-of-type(2) ul {
 }
 
 header nav:nth-of-type(2) ul li {
-	width: 6em;
+	width: 5.5em;
 	text-align: center;
+}
+
+header nav:nth-of-type(2) details p {
+	padding-left: 1.5em;
+	margin: 1em;
+	font-weight: 300;
+}
+
+header nav:nth-of-type(2) ul li p {
 	font-size: .7rem;
 }
 
+/* De tweede nav bar opmaak van de images heeft Ali geholpen, zie hieronder. */
 header nav:nth-of-type(2) ul li a {
 	display: flex;
 	flex-direction: column;
@@ -179,12 +189,16 @@ nav:nth-of-type(2) details ul {
 
 nav:nth-of-type(2) details summary {
 	padding: 1em;
+	border-bottom: 0.2px solid grey;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 nav:nth-of-type(2) article {
 	flex-direction: column;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	padding-left: 1em;
 }
 
 nav:nth-of-type(2) article p {
