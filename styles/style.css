@@ -47,6 +47,10 @@ h1:hover {
 	color: black;
 }
 
+h2 {
+	padding-top: 0.15em;
+}
+
 .eersteH2 {
 	color: gray;
 	font-size: 1em;
@@ -63,10 +67,15 @@ h2 ul li p img {
 	height: 1.8em;
 }
 
+h3 {
+	padding-bottom: 0.3em;
+}
+
 /* IMG AND LI */
 img {
 	width: 100%;
     object-fit: contain;
+	display: block;
 }
 
 li {
@@ -127,7 +136,7 @@ header > ul {
 
 header nav:nth-of-type(2) {
 	background: white;
-	top: 6.13rem;
+	top: 5.5rem;
 	display: block;
 	position: absolute;
 	z-index: 99;
@@ -238,8 +247,9 @@ div {
 /*******************/
 
 /* MAIN */
-main p {
+main section > p {
 	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 /* Om een goede font te kiezen heb ik gebruik gemaakt van https://www.w3.org/Style/Examples/007/fonts.en.html. */
@@ -327,7 +337,7 @@ section:nth-of-type(3) ul {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-columns: repeat(2, 1fr);
-	grid-row-gap: 0.2rem;
+	grid-row-gap: 0.5rem;
 	grid-column-gap: 0.5rem;
 }
 
@@ -353,6 +363,7 @@ section:last-of-type {
 
 section ul li p:nth-of-type(2) {
 	color: crimson;
+	font-size: 0.85em;
 }
 
 /* ARTICLES */
