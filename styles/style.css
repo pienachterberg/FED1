@@ -352,7 +352,7 @@ section:last-of-type {
 }
 
 section ul li p:nth-of-type(2) {
-	color: white;
+	color: crimson;
 }
 
 /* ARTICLES */
