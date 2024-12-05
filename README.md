@@ -62,7 +62,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/WCAG-checklist-foto3.jpg" alt="WCAG-checklist headings, lists en images">
   <img src="readme-images/WCAG-checklist-foto4.jpg" alt="WCAG-checklist media (video and audio) en controls">
   <img src="readme-images/WCAG-checklist-foto5.jpg" alt="WCAG-checklist appearance, animation en color contrast">
-  
 
 </details>
 
@@ -170,6 +169,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  <img src="readme-images/WCAG-checklist2-img1.jpg" alt="WCAG-checklist content en global code mijn eigen website">
+  <img src="readme-images/WCAG-checklist2-img2.jpg" alt="WCAG-checklist keyboard en mobile touch mijn eigen website">
+  <img src="readme-images/WCAG-checklist2-img3.jpg" alt="WCAG-checklist headings, lists en images mijn eigen website">
+  <img src="readme-images/WCAG-checklist2-img4.jpg" alt="WCAG-checklist media (video and audio) en controls mijn eigen website">
+  <img src="readme-images/WCAG-checklist2-img5.jpg" alt="WCAG-checklist appearance, animation en color contrast mijn eigen website">
+
+  De grootste veranderingen die anders zijn van de originele site en mijn nagemaakte site, die naar voren kwamen in mijn WCAG checklist zijn: (ook te zien in mijn aantekeningen in de screenshots hierboven). 
+  - Alle images, buttons en a links hebben een alt tekst, bij de originele site is er geen gebruik gemaakt van alt teksten. 
+  - Mijn alt teksten geven benodigde informatie (ook teksten die in afbeeldingen staan.)
+  - Ik heb niet gebruik gemaakt van div's en id's voor elke sectie maar in plaats hiervan heb ik sections en articles gebruikt. 
+  - De originele site gebruikt voor bijna elke knop een nieuwe class, dit heb ik maar 1 keer gebruikt, alleen voor andere opmaak (andere classes van de originele site waren onnodig dus die heb ik weggelaten). 
+  - Ik heb voor een chronologischere code gebruik gemaakt van li items.
+  - De nagemaakte site is voor de gebruiker interessanter om te bezoeken door toegevoegde hovers en animaties. 
+  - Door hovers op bepaalde secties waar input gegeven moet worden zijn ook hovers toegevoegd, dit is voor de gebruiker makkelijker om te zien waar hij/zij zich bevindt. 
+  
+
 </details>
 
 
@@ -253,5 +268,5 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   8. Om het form werkend te maken heb ik https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs gebruikt.
   
   9. Overige images van https://drool-art.com/.
-  
+
 </details>
