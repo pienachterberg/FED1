@@ -247,6 +247,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. Afbeelding van de shopping bag in de eerste nav bar is van https://iconduck.com/icons/19959/shopping-bag. 
   3. Afbeelding van het vergrootglas in de eerste nav bar is van https://www.veryicon.com/icons/miscellaneous/designer-icon-1/searchbar.html?p=3. 
   4. Afbeelding van het hamburgermenu in de eerste nav bar is van https://en.wikipedia.org/wiki/Hamburger_button.
-  5. Overige images van https://drool-art.com/.
-
+  5. De schaduwteksten in de hover van mijn h2 heb ik gemaakt met behulp van https://www.w3.org/Style/Examples/007/text-shadow.nl.html. 
+  6. De tekst over de afbeelding van de tweede pagina (inspiratie pagina) heb ik geschreven met hulp de oefening en uitwerking van https://codepen.io/PFachterberg/pen/pvzJKvM.
+  7. Om een goede font te kiezen die anders is dan de H2 die staat in de tweede pagina heb ik https://www.w3.org/Style/Examples/007/fonts.en.html gebruikt.
+  8. Om het form werkend te maken heb ik https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs gebruikt.
+  
+  9. Overige images van https://drool-art.com/.
+  
 </details>
