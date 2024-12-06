@@ -8,8 +8,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
-
 ## Jij
 
 <details open>
@@ -25,8 +23,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Voor mijn website ga ik mij focussen op de service plane van de website.
  
 </details>
-
-
 
 
 
@@ -98,25 +94,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Deze week ben ik vooral weer bezig geweest met de opdrachten, maar daarnaast heb ik ook een begin van mijn HTML bestand opgezet.
 
   <img src="readme-images/HTML-homescreen-feedback-week1.png" width="375px" alt="Begin van mijn HTML scherm, in deze screenshot is de verdeling van mijn sections te zien.">
   <img src="readme-images/CSS-beginsels-feedback-week1.png" width="375px" alt="Begin van mijn CSS indeling, hier is te zien hoe de student assistent mij geholpen heeft met de nth(1) items en het aanspreken van items.">
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Voordat ik naar het gesprek ging had ik al een paar dingen bedacht waar ik hulp bij wilde vragen. Zo wist ik niet of ik mijn sections goed had ingedeeld in mijn breakdownschets en HTML, en hoe ik deze moet indelen in CSS. 
   - Bij het gesprek kwam al direct naar voren dat ik mijn Github niet goed geplaatst had, de student assistent heeft mij geholpen met deze opnieuw plaatsen. Zodat mijn read-me live is. 
@@ -124,6 +107,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Ook heb ik li items toegevoegd aan losstaande img. Zo is de section compleet en is het indelen makkelijker. 
   - Ook heb ik de buttons veranderd naar a items. Want het zijn linkjes binnenin de website. Deze moet ik met CSS opmaken. En ik ga ze functioneel maken met Javascript (wat we in de les geleerd hebben.)
   - Ook heb ik mijn img een 100vh gegeven zodat hij binnen mijn scherm past. 
+
 </details>
 
 
@@ -137,17 +121,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Deze week ben ik al een goed eind opweg gegaan met het schrijven van mijn code, en dit lukt met veel proberen ook best redelijk. Voorafgaand van de feedbackgroep wilde ik graag hulp vragen met mijn hamburgermenu interactief maken. 
   <img src="readme-images/Hamburgermenu-eerste-versie_roze.png" width="375px" alt="Hamburgermenu eerste versie, de indeling is nog niet af en de achtergrond roze.">
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
   ### Verslag van meeting
  - In deze feedbackgroep wist ik dat ik om hulp wilde vragen met het opstellen van een hamburgermenu. In de afbeelding hierboven is te zien hoe deze eruit ziet als je op het icoon klikt, hij werkt!
  - Volgende week ga ik deze nog verder vormgeven, ook wil ik erachter komen hoe ik deze specifiek aanspreek, want nu gaat de vormgeving van omliggende UL's vaak mee. 
@@ -156,8 +129,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  - De rest van deze werkgroep heb ik gewerkt aan het maken van mijn iconenset en de a binnen de img leidt naar de andere pagina. Eerst had ik deze geleid naar de oprechte socials van de website, maar ik kreeg de feedback dat ik deze binnen de pagina moet linken, voor als er perongeluk geklikt op wordt. Nu gaat de index pagina naar de inspiratie pagina en vise versa. 
 
 </details>
-
-
 
 
 
@@ -182,12 +153,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - De originele site gebruikt voor bijna elke knop een nieuwe class, dit heb ik maar 1 keer gebruikt, alleen voor andere opmaak (andere classes van de originele site waren onnodig dus die heb ik weggelaten). 
   - Ik heb voor een chronologischere code gebruik gemaakt van li items.
   - De nagemaakte site is voor de gebruiker interessanter om te bezoeken door toegevoegde hovers en animaties. 
-  - Door hovers op bepaalde secties waar input gegeven moet worden zijn ook hovers toegevoegd, dit is voor de gebruiker makkelijker om te zien waar hij/zij zich bevindt. 
-  
+  - Door hovers op bepaalde secties waar input gegeven moet worden zijn ook hovers toegevoegd, dit is voor de gebruiker makkelijker om te zien waar hij/zij zich bevindt.  
 
 </details>
-
-
 
 
 
@@ -197,30 +165,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Deze week heb ik veel geprobeerd met het schrijven van CSS en ook een heel eind gekomen (soms met hulp) maar grotendeels zelf.
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Om mijn website nog interessanter te maken en de suface plane uit te breiden ben ik deze feedback les begonnen met het maken van mijn animaties. Hovers had ik al in mijn site dus ik moest eerst bedenken waar ik deze animaties op wilde maken. 
+  - Zo heb ik een animatie gemaakt bij het hoveren van het DROOL-logo. En een opacity animatie die de logo's bij het hoveren steeds beter naar voren brengt.
+  - Daarnaast heb ik mijn website nu ook met link geupload in mijn About van Github, met behulp van de student assistent. 
+  - Ook kwam ik erachter dat elke image standaard een kleine witregel toevoegt, dit verwijder je door in CSS display:block; toe te voegen. Hierdoor klopte veel paddingen en margins van mijn website niet meer maar deze heb ik weer aangepast in de code. 
 
 </details>
-
-
 
 
 
@@ -230,22 +184,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  Hieronder zijn de screenshots te zien van mijn nagemaakte site. 
+  <img src="readme-images/Eindversie_eigenDROOL-img1.JPG" width="375px" alt="Mijn index-html, Hoofdpagina van de Drool-art poster verkoop site die ik nagemaakt heb.">
+  <img src="readme-images/Eindversie_eigenDROOL-img2.JPG" width="375px" alt="Mijn inspiratie-html, de inspiratiepagina van de Drool-art poster verkoop site die ik nagemaakt heb.">
+  <img src="readme-images/Eindversie_eigenDROOL-img3.PNG" width="375px" alt="Uitgewerkte navigatie bar (uitgeklapt), tweede navigatie van de site.">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Afgelopen weken heb ik veel meer gecodeerd en geleerd dan ik van tevoren verwacht had. Hieronder een paar screenshots van mijn CSS code waar ik blij mee ben dat ze werken. Zo vond ik het lastig mijn tweede (uitklapbare) navigatie te laten werken, maar deze is uiteindelijk heel mooi geworden. Ook is het gelukt door opdrachten te maken, te begrijpen wat het verschil is tussen relative en absolute en hoe je deze inzet. Mijn tekst over mijn img is goed gelukt. Tenslotte ben ik blij met de uitstraling van mijn nagemaakte site, hij is niet precies hetzelfde, maar de hovers en animaties vind ik leuk gelukt en ze werken allemaal.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Goed-opmaak-uitklapbare-navbar.png" width="375px" alt="top">
+  <img src="readme-images/Goed-text-overlay_relative.absolute.png" width="375px" alt="top">
+  <img src="readme-images/Goed-animaties-maken.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het lukte mij goed de buttons aan de praat te krijgen en de kleine foutjes te zien in Javascript en deze te veranderen. Wel heb ik hulp gekregen van de docent om de eerste button niet dezelfde onClick functie te geven. Hierdoor snap ik de javaScript niet helemaal (door aanpassingen van de docent). Ook vond ik het lastig deze navbar aan de praat te krijgen, met hulp van Ali is deze nu wel werkend. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/Lastig-navbar-dieuitklapbaar-is.png" width="375px" alt="Tweede navigatiebar die een uitklapbaar hamburgermenu is.">
+  <img src="readme-images/Lastig-javascript-opmijn-buttons_hulp.png" width="375px" alt="Javascript code van de buttons.">
+  
 </details>
-
-
 
 
 

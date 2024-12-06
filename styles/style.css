@@ -383,6 +383,20 @@ main article:nth-of-type(1) {
 	position: relative;
 }
 
+/* Dit heb ik geschreven met hulp van oefening en uitwerking van https://codepen.io/PFachterberg/pen/pvzJKvM. */
+main article:nth-of-type(1) div {
+	position: absolute;
+	top: 0;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	top: 40%;
+	bottom: 60%;
+	padding: 1rem;
+	text-align: center;
+}
+
 article ul li {
 	padding: 1em;
 	text-align: center;
@@ -421,20 +435,6 @@ article:last-of-type ul {
 	flex-direction: row;
 	background-color: black;
 	color: white;
-}
-
-/* Dit heb ik geschreven met hulp van oefening en uitwerking van https://codepen.io/PFachterberg/pen/pvzJKvM. */
-main article:nth-of-type(1) div {
-	position: absolute;
-	top: 0;
-	background-color: transparent;
-	display: flex;
-	flex-direction: column;
-	color: white;
-	top: 40%;
-	bottom: 60%;
-	padding: 1rem;
-	text-align: center;
 }
 
 
