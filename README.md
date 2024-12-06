@@ -193,9 +193,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Afgelopen weken heb ik veel meer gecodeerd en geleerd dan ik van tevoren verwacht had. Hieronder een paar screenshots van mijn CSS code waar ik blij mee ben dat ze werken. Zo vond ik het lastig mijn tweede (uitklapbare) navigatie te laten werken, maar deze is uiteindelijk heel mooi geworden. Ook is het gelukt door opdrachten te maken, te begrijpen wat het verschil is tussen relative en absolute en hoe je deze inzet. Mijn tekst over mijn img is goed gelukt. Tenslotte ben ik blij met de uitstraling van mijn nagemaakte site, hij is niet precies hetzelfde, maar de hovers en animaties vind ik leuk gelukt en ze werken allemaal.
 
-  <img src="readme-images/Goed-opmaak-uitklapbare-navbar.png" width="375px" alt="top">
-  <img src="readme-images/Goed-text-overlay_relative.absolute.png" width="375px" alt="top">
-  <img src="readme-images/Goed-animaties-maken.png" width="375px" alt="top">
+  <img src="readme-images/Goed-opmaak-uitklapbare-navbar.png" width="375px" alt="Dit is een deel van de HTML van de uitklapbare nav bar.">
+  <img src="readme-images/Goed-text-overlay_relative.absolute.png" width="375px" alt="Dit is de HTML code van de tekst 'inspo hub' die over de inspiratie afbeelding staat.">
+  <img src="readme-images/Goed-animaties-maken.png" width="375px" alt="Dit is mijn code van mijn gemaakte animaties.">
 
 
   ### Dit was lastig/Is niet gelukt:
