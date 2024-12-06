@@ -108,12 +108,6 @@ header nav img {
     object-fit: contain;
 }
 
-header div img {
-	width: 30%;
-    object-fit: contain;
-	margin-right: 0.5em;
-}
-
 header ul {
 	display: flex;
 	justify-content: space-around;
@@ -132,6 +126,11 @@ header > ul {
 	padding-bottom: 1em;
 	padding-top: 1em;
 	background-color: black;
+}
+
+header div p {
+	padding-top: 0.18em;
+	padding-left: 0.5em;
 }
 
 header nav:nth-of-type(2) {
@@ -455,6 +454,21 @@ button {
 	font-size: 1em;
 }
 
+div button {
+	background: lightgray;
+	padding: 0em;
+	margin: 0em;
+	width: 1.6em;
+	flex-direction: row;
+	border: 0em;
+	color:black;
+}
+
+div button:hover {
+	color: yellow;
+
+}
+
 .anders {
 	background:cadetblue;
 	color: black;
@@ -484,18 +498,23 @@ input,label {
 @keyframes logo-animatie {
 	0% {
 		scale: 1;
+		rotate: 0deg;
 	}
 	30% {
 		scale: 1.3;
+		rotate: 25deg;
 	}
 	50% {
 		scale: 1.1;
+		rotate: 100deg;
 	}
 	80% {
 		scale: 1.5;
+		rotate: 210deg
 	}
 	100% {
 		scale: 1;
+		rotate: 360deg;
 	}
 }
 
@@ -505,3 +524,16 @@ header nav img[aria-label="logo"]:hover {
 	animation-iteration-count: infinite;
 }
 
+@keyframes merklogo-animatie {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+main section:nth-of-type(1) ul li:hover {
+	animation-name: merklogo-animatie;
+	animation-duration: 2.5s;
+}
