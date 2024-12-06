@@ -89,18 +89,8 @@ li {
 /************************/
 
 /* HEADER */
-
 header {
 	position: relative;
-}
-
-header nav:nth-of-type(2) {
-	display: none;
-}
-
-header nav:nth-of-type(2).open {
-	display: block;
-	transform: translateX(0);
 }
 
 header nav img {
@@ -113,14 +103,6 @@ header ul {
 	justify-content: space-around;
 }
 
-header > ul li a{
-	background: black;
-	color: white;
-	padding-top: 1em;
-	text-decoration: none;
-	padding-left: 2.4em;
-	padding-right: 2.4em;
-}
 header > ul {
 	z-index: 1;
 	padding-bottom: 1em;
@@ -128,9 +110,27 @@ header > ul {
 	background-color: black;
 }
 
+header > ul li a {
+	background: black;
+	color: white;
+	padding-top: 1em;
+	text-decoration: none;
+	padding-left: 2.4em;
+	padding-right: 2.4em;
+}
+
 header div p {
 	padding-top: 0.18em;
 	padding-left: 0.5em;
+}
+
+header nav:nth-of-type(2) {
+	display: none;
+}
+
+header nav:nth-of-type(2).open {
+	display: block;
+	transform: translateX(0);
 }
 
 header nav:nth-of-type(2) {
@@ -164,7 +164,7 @@ header nav:nth-of-type(2) ul li p {
 	font-size: .7rem;
 }
 
-/* De tweede nav bar opmaak van de images heeft Ali geholpen, zie hieronder. */
+/* De tweede nav bar opmaak van de images heeft Ali geholpen, zie hieronder. Hier heb ik nieuwe termen geleerd zoals aspect-ratio. */
 header nav:nth-of-type(2) ul li a {
 	display: flex;
 	flex-direction: column;
@@ -180,15 +180,15 @@ header nav:nth-of-type(2) ul li a img {
 }
 
 /* NAVIGATIE AND DIV */
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
 .navimages {
 	height: 1.5em;
 	width: 1.5em;
 	margin: 1em;
-}
-
-nav {
-	display: flex;
-	justify-content: space-between;
 }
 
 nav:nth-of-type(2) details ul {
@@ -220,16 +220,16 @@ nav:nth-of-type(2) details summary ul li {
 	flex-direction: column;
 }
 
+nav img:nth-of-type(2) {
+	margin-inline: auto;
+}
+
 nav button {
 	background: white;
 	padding: 0em;
 	margin: 0em;
 	border-color: transparent;
 	width: auto;
-}
-
-nav img:nth-of-type(2) {
-	margin-inline: auto;
 }
 
 div {
@@ -332,6 +332,12 @@ section:nth-of-type(1):hover, section:nth-of-type(3):hover, section:nth-of-type(
 	background: lightblue;
 }
 
+section ul li p:nth-of-type(2) {
+	color: crimson;
+	font-size: 0.85em;
+}
+
+/* Om deze grid goed te positioneren heb ik terug gekeken naar de grid les en hulp gekregen van Ali. */
 section:nth-of-type(3) ul {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -360,12 +366,7 @@ section:last-of-type {
 	text-align: center;
 }
 
-section ul li p:nth-of-type(2) {
-	color: crimson;
-	font-size: 0.85em;
-}
-
-/* ARTICLES */
+/* ARTICLES IN MAIN */
 main article ul li img {
 	max-width: 10vw;
 	max-height: 10vh;
@@ -376,6 +377,10 @@ main article ul li img {
 
 main article ul li img:hover {
 	transform: rotate(720deg);
+}
+
+main article:nth-of-type(1) {
+	position: relative;
 }
 
 article ul li {
@@ -418,10 +423,6 @@ article:last-of-type ul {
 	color: white;
 }
 
-main article:nth-of-type(1) {
-	position: relative;
-}
-
 /* Dit heb ik geschreven met hulp van oefening en uitwerking van https://codepen.io/PFachterberg/pen/pvzJKvM. */
 main article:nth-of-type(1) div {
 	position: absolute;
@@ -442,6 +443,7 @@ main article:nth-of-type(1) div {
 /* BUTTONS AND LINKS*/
 /********************/
 
+/* BUTTONS */
 button {
 	background: black;
 	color: white;
@@ -484,6 +486,7 @@ div button:hover {
 	rotate: 360deg;
 }
 
+/* LINKS */
 a {
 	text-decoration: none;
 }
@@ -495,6 +498,11 @@ input,label {
 	border-width: 0.01em;
 }
 
+
+
+/************/
+/* ANIMATIES*/
+/************/
 @keyframes logo-animatie {
 	0% {
 		scale: 1;
@@ -524,6 +532,7 @@ header nav img[aria-label="logo"]:hover {
 	animation-iteration-count: infinite;
 }
 
+/* Mijn tweede animatie heb ik gemaakt met opacity, deze inspiratie heb ik gehaald uit https://www.modernways.be/myap/it/page/programming/css/transition%20and%20animation/CSS%20animatie%20-%20keyframes.html. */
 @keyframes merklogo-animatie {
 	0% {
 		opacity: 0;

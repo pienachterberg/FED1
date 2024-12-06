@@ -266,6 +266,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   6. De tekst over de afbeelding van de tweede pagina (inspiratie pagina) heb ik geschreven met hulp de oefening en uitwerking van https://codepen.io/PFachterberg/pen/pvzJKvM.
   7. Om een goede font te kiezen die anders is dan de H2 die staat in de tweede pagina heb ik https://www.w3.org/Style/Examples/007/fonts.en.html gebruikt.
   8. Om het form werkend te maken heb ik https://stackoverflow.com/questions/6046110/styling-form-with-label-above-inputs gebruikt.
+  9. De sterren in de div sectie in de index pagina zijn gekopieerd van: https://css-tricks.com/star-ratings/.
+  10. Mijn tweede animatie heb ik gemaakt met opacity, deze inspiratie heb ik gehaald uit https://www.modernways.be/myap/it/page/programming/css/transition%20and%20animation/CSS%20animatie%20-%20keyframes.html.
   
   9. Overige images van https://drool-art.com/.
 
